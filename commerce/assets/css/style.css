@@ -1,0 +1,169 @@
+* {
+	color: #333;
+
+}
+body {
+	overflow-x:hidden; 
+}
+#nav-top a {
+	padding: 0 0 0 10px;
+	font-size: 15px;
+	color: #333;
+}
+
+#site-info {
+	font-size: 15px;
+	color: black;
+	font-weight: normal;
+}
+
+#navbar {
+	background: white;
+	margin:0;
+	height: 20px;
+}
+
+#nav {
+	float: none;
+	display: inline-block; 
+}
+
+#nav li a {
+	color: black;
+	font-size: 16px;
+}
+
+#nav li a i {
+	font-size: 28px;
+	position: absolute;
+	top: 6.8px;
+	left: -7px;
+
+}
+
+#nav li a:hover {
+	color: #255bba;
+}
+
+.active-link {
+	color: #255bba;
+}
+
+.active-home {
+	color: #db6b08;
+}
+
+#nav li a i:hover {
+	color: #db6b08;
+}
+
+.col-md-3 {
+	margin:0;
+	padding:0;
+}
+
+.col-md-3 img {
+	min-height: 250px;
+	
+
+}
+
+.info {
+	padding: 10px;
+	background: #535c6b;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+
+.info i {
+	color: white;
+	font-size: 15px;
+}
+
+#services {
+	margin-top: 60px;
+	min-height: 580px;
+
+	padding-top: 50px;
+}
+
+#services .col-md-6 {
+	height: 300px;
+}
+
+#footer ul {
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#footer ul li {
+	display: inline-block;
+	padding: 0 2px;
+}
+
+#footer ul li a i {
+	color: #333;
+	font-size: 28px;
+}
+
+#footer {
+	background: silver;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.services-image:hover {
+	padding: 20px;
+	cursor: pointer;
+
+}
+
+.list {
+	margin-bottom: 30px;
+}
+
+#menu {
+	margin: 20px 0;
+}
+.menu {
+	height: 260px;
+	border: solid 0.5px silver;
+}
+
+.menu .menu-image {
+	height: 170px;
+	width: 100%;
+	padding: 10px;
+}
+
+.menu .menu-image img {
+	height: 100%;
+	width: 100%;
+}
+
+.menu .menu-info {
+	padding: 0 10px 10px 10px;
+}
+
+.name {
+	font-size: 14px;
+	font-family: monospace;	
+	font-weight: 900;
+}
+
+.price {
+	font-size: 14px;
+	font-family: monospace;	
+}
+
+.buy-btn {
+	
+}
+
+#catering {
+	background: white;
+	margin:20px 0;
+
+}
