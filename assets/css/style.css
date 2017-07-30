@@ -5,17 +5,27 @@
 body {
 	overflow-x:hidden; 
 }
-#nav-top a {
-	padding: 0 0 0 10px;
-	font-size: 15px;
-	color: #333;
-}
 
 #site-info {
 	font-size: 15px;
 	color: black;
 	font-weight: normal;
+
 }
+
+.navbar-top {
+
+	padding: 2px;
+
+}
+
+.contact-info {
+	padding: 3px;
+	border-top:.5px silver solid;
+
+}
+
+
 
 #navbar {
 	background: white;
@@ -64,7 +74,7 @@ body {
 
 .col-md-3 img {
 	min-height: 250px;
-	
+	max-height: 250px;
 
 }
 
@@ -82,9 +92,9 @@ body {
 }
 
 #services {
-	margin-top: 60px;
+	margin-top: 100px;
 	min-height: 580px;
-
+	margin-bottom: 100px;
 	padding-top: 50px;
 }
 
@@ -92,27 +102,7 @@ body {
 	height: 300px;
 }
 
-#footer ul {
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
-}
 
-#footer ul li {
-	display: inline-block;
-	padding: 0 2px;
-}
-
-#footer ul li a i {
-	color: #333;
-	font-size: 28px;
-}
-
-#footer {
-	background: silver;
-	padding: 10px;
-	margin-bottom: 25px;
-}
 
 .services-image:hover {
 	padding: 20px;
@@ -136,6 +126,21 @@ body {
 	height: 170px;
 	width: 100%;
 	padding: 10px;
+	position: relative;
+}
+
+.menu .menu-image .fa-search {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 38px;
+	color: #333;
+	transform: translate(-50%,-50%);
+	display: none;
+}
+
+.menu .menu-image:hover {
+	opacity: .5;
 }
 
 .menu .menu-image img {
@@ -148,14 +153,14 @@ body {
 }
 
 .name {
-	font-size: 14px;
-	font-family: monospace;	
-	font-weight: 900;
+	font-size: 16px;
+	line-height: 1.2;
 }
 
 .price {
 	font-size: 14px;
-	font-family: monospace;	
+	line-height: 1.2;
+	
 }
 
 .buy-btn {
@@ -166,4 +171,141 @@ body {
 	background: white;
 	margin:20px 0;
 
+}
+
+#home-image-slider {
+	position: relative;
+}
+
+#home-image-slider .fa-arrow-right {
+	position: absolute;
+	right: 0;
+	top: 45%;
+	bottom: 50%;
+ 	transform: translate(-50%,-50%);
+ 	font-size: 38px;
+ 	opacity: .5;
+}
+
+#home-image-slider .fa-arrow-left {
+	position: absolute;
+	left: 25px;
+	opacity: .5;
+	top: 45%;
+	bottom: 50%;
+ 	transform: translate(-50%,-50%);
+ 	font-size: 38px;
+}
+
+.location-body iframe {
+	width: 100%;
+}
+
+footer {
+	padding: 50px 0;
+	border-top: solid .5px silver;
+	margin-top: 60px;
+}
+
+footer h1 {
+	color: black;
+	font-size: 22px;
+}
+
+.get-in-touch {
+	list-style-type: none;
+	padding: 0;
+}
+
+.direction iframe {
+	width: 100%;
+
+}
+
+.get-in-touch li a {
+	font-size: 18px;
+	color: black;
+}
+
+.get-in-touch li a i {
+	font-size: 18px;
+}
+
+.footer {
+	background: #333;
+	border-top: .5px solid white;
+}
+
+.footer div p {
+	color: white;
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+.fa-facebook-square {
+	color: black;
+}
+
+.fa-youtube-square {
+	color: 	black;
+}
+
+.fa-google-plus-square {
+	color: black;
+}
+
+.fa-twitter-square {
+	color: black;
+}
+
+.contacts_info {
+	padding: 10px;
+}
+
+#image-modal {
+ 	position: fixed;
+ 	top: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ 	height: 100%;
+ 	width: 100%;
+ 	z-index: 100;
+ 	background-color: rgba(0,0,0,0.4);	
+ 	display: none;
+ 	padding: 50px;
+}
+
+.modal-body {
+	height: 100%;
+	width: 100%;
+	background: white;
+	z-index: 1000;
+	overflow: hidden;
+
+}
+
+#close-btn:hover {
+	cursor: pointer;
+	opacity: .5;
+}
+
+.modal-body .col-md-8 img {
+	width: 100%;
+	max-height: 530px;
+	min-height: 530px;
+	border-radius: 10px;
+}
+
+.modal-body i {
+	font-size: 25px;
+	position: absolute;
+	right: 8px;
+	top: 5px;
+	color: grey;
+	font-weight: normal;
+}
+
+.comment-section {
+	margin-top: 50px;
 }
