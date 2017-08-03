@@ -281,7 +281,7 @@ footer h1 {
 	width: 100%;
 	background: white;
 	z-index: 1000;
-	overflow: hidden;
+	overflow: auto;
 
 }
 
@@ -308,4 +308,16 @@ footer h1 {
 
 .comment-section {
 	margin-top: 50px;
+}
+
+@media screen and (max-height: 595px) {
+  #image-modal {
+  	padding: 2px;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  #image-modal {
+  	padding: 20px;
+  }
 }

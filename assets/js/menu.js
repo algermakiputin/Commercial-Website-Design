@@ -3,24 +3,28 @@ window.onload = function() {
 	var search_icon = document.getElementsByClassName('fa-search');
 	var image_modal = document.getElementById('image-modal');
 	var view_more = document.getElementsByClassName('view-more');
-
+	var test;
+	var icon;
+	var num = 1;
 	// for(i = 0; i < menu.length; i++) {
-	// 	console.log(i);
-	// 	menu[i].addEventListener('mouseover',function() {
-	// 		search_icon[i].style.display = 'block';
-	// 		search_icon[i].style.color = 'white';
-	//  		menu[i].style.cursor = 'pointer';
-	//  		search_icon[i].style.cursor = 'pointer';
-	// 	});
+		
+	// 	for(x = 0; x < search_icon.length; x++) {
+	// 		test = menu[x];
+	// 		icon = search_icon[x];
+	// 		test.addEventListener('mouseover',function() {
+	// 			icon.style.display = "block";
+	// 		});
 
-	// 	menu[i].addEventListener("mouseout",function() {
-	//  		search_icon[i].style.display = 'none';
-	//  	});
+	// 		test.addEventListener("mouseout",function() {
+		 		
+	// 	 	});																
+	// 	}
+
 	// }
 
 
 	menu[0].addEventListener("mouseover",function() {
-			search_icon[0].style.display = 'block';
+			search_icon[0].style.display = 'flex';
 			search_icon[0].style.color = 'white';
 			menu[0].style.cursor = 'pointer';
 			search_icon[0].style.cursor = 'pointer';
